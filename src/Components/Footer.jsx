@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  console.log(test);
+  console.log("test");
   return (
     <footer>
       <div className="flex-container footer-container">
