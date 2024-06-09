@@ -16,7 +16,7 @@ body {
 }
 .wrapper-container {
   background-color: var(--bg-color);
-  min-height: 100vh;
+  min-height: 40vh;
   padding: 32px;
   color: var(--text-color);
 }
@@ -28,7 +28,7 @@ body {
   flex-wrap: wrap;
 }
 section {
-  margin-top: 5rem;
+  margin-top: 2%;
 }
 /* Navigation BAr */
 header {
