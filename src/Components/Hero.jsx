@@ -1,3 +1,4 @@
+import profileImage from "../assets/profile-image.png";
 const Hero = () => {
   return (
     <section id="Home">
@@ -15,7 +16,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="image-grid-item flex-container">
-          <img src="./assets/profile-image.png" alt="profile image" />
+          <img src={profileImage} alt="profile image" />
         </div>
       </div>
     </section>

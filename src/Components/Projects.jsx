@@ -1,3 +1,9 @@
+import projectImage1 from "../assets/project-1.png";
+import projectImage1 from "../assets/project-1.png";
+import projectImage1 from "../assets/project-1.png";
+import projectImage1 from "../assets/project-1.png";
+import projectImage1 from "../assets/project-1.png";
+import projectImage1 from "../assets/project-1.png";
 const Projects = () => {
   return (
     <section id="projects">
@@ -6,7 +12,6 @@ const Projects = () => {
       </center>
 
       <div className="flex-container">
-        {/* <!-- Recent work card 1 --> */}
         <div className="recent-work-card">
           <div className="card-image">
             <img src="./assets/project-1.png" alt="Project Image" />
@@ -29,7 +34,7 @@ const Projects = () => {
           <h4>Sales Page</h4>
           <p>HTML, CSS</p>
         </div>
-        {/* <!-- Recent work card 2 --> */}
+
         <div className="recent-work-card">
           <div className="card-image">
             <img src="./assets/project-2.png" alt="Project Image" />
