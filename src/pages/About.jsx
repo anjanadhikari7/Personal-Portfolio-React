@@ -1,3 +1,4 @@
+import ProfileImage from "../assets/profile-image.png";
 const AboutPage = () => {
   return (
     <section className="about-me-section" id="about">
@@ -6,7 +7,7 @@ const AboutPage = () => {
       </center>
       <div className="flex-container about-me-container">
         <div className="flex-container">
-          <img src="./assets/profile-image.png" />
+          <img src={ProfileImage} />
         </div>
         <div>
           <h3>Anjan Adhikari</h3>
