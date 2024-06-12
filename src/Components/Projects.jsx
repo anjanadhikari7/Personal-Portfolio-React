@@ -1,10 +1,55 @@
+import ProjectCard from "./ProjectCard";
 import projectImage1 from "../assets/project-1.png";
-import projectImage1 from "../assets/project-1.png";
-import projectImage1 from "../assets/project-1.png";
-import projectImage1 from "../assets/project-1.png";
-import projectImage1 from "../assets/project-1.png";
-import projectImage1 from "../assets/project-1.png";
+import projectImage2 from "../assets/project-2.png";
+import projectImage3 from "../assets/project-3.png";
+import projectImage4 from "../assets/project-4.png";
+import projectImage5 from "../assets/project-5.png";
+import projectImage6 from "../assets/project-6.png";
 const Projects = () => {
+  const ProjectNumber = [
+    {
+      image: projectImage1,
+      github: "https://github.com/anjanadhikari7/Sales-page",
+      web: "https://anjanadhikari7.github.io/Sales-page/",
+      description: "Sales Page",
+      language: "HTML, CSS",
+    },
+    {
+      image: projectImage2,
+      github: "https://github.com/anjanadhikari7/Flashy-webpage",
+      web: "https://anjanadhikari7.github.io/Flashy-webpage/",
+      description: "Flashy Webpage",
+      language: "HTML, CSS",
+    },
+    {
+      image: projectImage3,
+      github: "https://github.com/anjanadhikari7/Travel-blog",
+      web: "https://anjanadhikari7.github.io/Travel-blog/",
+      description: "Travel Blog",
+      language: "HTML, CSS",
+    },
+    {
+      image: projectImage4,
+      github: "https://github.com/anjanadhikari7/Flexbox-Layout",
+      web: "https://anjanadhikari7.github.io/Flexbox-Layout/",
+      description: "Flexbox Model",
+      language: "HTML, CSS",
+    },
+    {
+      image: projectImage5,
+      github: "https://github.com/anjanadhikari7/Grid-Layout",
+      web: "https://anjanadhikari7.github.io/Grid-Layout/",
+      description: "Grid Layout",
+      language: "HTML, CSS",
+    },
+    {
+      image: projectImage6,
+      github: "https://github.com/anjanadhikari7/Form-basics",
+      web: "https://anjanadhikari7.github.io/Form-basics/",
+      description: "HTML Form Basics",
+      language: "HTML, CSS",
+    },
+  ];
   return (
     <section id="projects">
       <center>
@@ -12,143 +57,15 @@ const Projects = () => {
       </center>
 
       <div className="flex-container">
-        <div className="recent-work-card">
-          <div className="card-image">
-            <img src="./assets/project-1.png" alt="Project Image" />
-          </div>
-          <div className="card-icons">
-            <a
-              href="https://github.com/anjanadhikari7/Sales-page"
-              target="_blank"
-            >
-              {" "}
-              <i className="fa-brands fa-github"></i>{" "}
-            </a>
-            <a
-              href="https://anjanadhikari7.github.io/Sales-page/"
-              target="_blank"
-            >
-              <i className="fa-brands fa-chrome"></i>
-            </a>
-          </div>
-          <h4>Sales Page</h4>
-          <p>HTML, CSS</p>
-        </div>
-
-        <div className="recent-work-card">
-          <div className="card-image">
-            <img src="./assets/project-2.png" alt="Project Image" />
-          </div>
-          <div className="card-icons">
-            <a
-              href="https://github.com/anjanadhikari7/Flashy-webpage"
-              target="_blank"
-            >
-              {" "}
-              <i className="fa-brands fa-chrome"></i>{" "}
-            </a>
-            <a
-              href="https://anjanadhikari7.github.io/Flashy-webpage/"
-              target="_blank"
-            >
-              <i className="fa-brands fa-github"></i>
-            </a>
-          </div>
-          <h4>Flashy Webpage</h4>
-          <p>HTML, CSS</p>
-        </div>
-        {/* <!-- Recent work card 3 --> */}
-        <div className="recent-work-card">
-          <div className="card-image">
-            <img src="./assets/project-3.png" alt="Project Image" />
-          </div>
-          <div className="card-icons">
-            <a
-              href="https://github.com/anjanadhikari7/Travel-blog"
-              target="_blank"
-            >
-              {" "}
-              <i className="fa-brands fa-github"></i>{" "}
-            </a>
-            <a
-              href="https://anjanadhikari7.github.io/Travel-blog/"
-              target="_blank"
-            >
-              <i className="fa-brands fa-chrome"></i>
-            </a>
-          </div>
-          <h4>Travel Blog</h4>
-          <p>HTML, CSS</p>
-        </div>
-        {/* <!-- Recent work card 4 --> */}
-        <div className="recent-work-card">
-          <div className="card-image">
-            <img src="./assets/project-4.png" alt="Project Image" />
-          </div>
-          <div className="card-icons">
-            <a
-              href="https://github.com/anjanadhikari7/Flexbox-Layout"
-              target="_blank"
-            >
-              {" "}
-              <i className="fa-brands fa-github"></i>{" "}
-            </a>
-            <a
-              href="https://anjanadhikari7.github.io/Flexbox-Layout/"
-              target="_blank"
-            >
-              <i className="fa-brands fa-chrome"></i>
-            </a>
-          </div>
-          <h4>Flexbox Model</h4>
-          <p>HTML, CSS</p>
-        </div>
-        {/* <!-- Recent work card 5 --> */}
-        <div className="recent-work-card">
-          <div className="card-image">
-            <img src="./assets/project-5.png" alt="Project Image" />
-          </div>
-          <div className="card-icons">
-            <a
-              href="https://github.com/anjanadhikari7/Grid-Layout"
-              target="_blank"
-            >
-              {" "}
-              <i className="fa-brands fa-github"></i>{" "}
-            </a>
-            <a
-              href="https://anjanadhikari7.github.io/Grid-Layout/"
-              target="_blank"
-            >
-              <i className="fa-brands fa-chrome"></i>
-            </a>
-          </div>
-          <h4>Grid Layout</h4>
-          <p>HTML, CSS</p>
-        </div>
-        {/* <!-- Recent work card 6 --> */}
-        <div className="recent-work-card">
-          <div className="card-image">
-            <img src="./assets/project-6.png" alt="Project Image" />
-          </div>
-          <div className="card-icons">
-            <a
-              href="https://github.com/anjanadhikari7/Form-basics"
-              target="_blank"
-            >
-              {" "}
-              <i className="fa-brands fa-github"></i>{" "}
-            </a>
-            <a
-              href="https://anjanadhikari7.github.io/Form-basics/"
-              target="_blank"
-            >
-              <i className="fa-brands fa-chrome"></i>
-            </a>
-          </div>
-          <h4>HTML Form Basics</h4>
-          <p>HTML, CSS</p>
-        </div>
+        {ProjectNumber.map((item) => (
+          <ProjectCard
+            image={item.image}
+            github={item.github}
+            web={item.web}
+            description={item.description}
+            language={item.language}
+          />
+        ))}
       </div>
     </section>
   );

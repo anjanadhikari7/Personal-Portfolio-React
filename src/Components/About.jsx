@@ -1,3 +1,4 @@
+import profileImage from "../assets/profile-image.png";
 const About = () => {
   return (
     <section className="about-me-section" id="about">
@@ -6,12 +7,11 @@ const About = () => {
       </center>
       <div className="flex-container about-me-container">
         <div className="flex-container">
-          <img src="./assets/profile-image.png" />
+          <img src={profileImage} />
         </div>
         <div>
           <h3>Anjan Adhikari</h3>
           <p>
-            {" "}
             In my journey, I blend creativity with practicality, fueled by an
             insatiable curiosity. From art to technology, I delve into diverse
             interests, embracing new experiences. Challenges are met with
